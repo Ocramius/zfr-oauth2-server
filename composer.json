@@ -18,18 +18,20 @@
   ],
   "require": {
     "php": ">=5.4",
+    "doctrine/common": "~2.4",
     "zendframework/zend-http": "~2.2",
-    "zendframework/zend-bcrypt": "~2.2"
+    "zendframework/zend-crypt": "~2.2",
+    "zendframework/zend-math": "~2.2"
   },
   "require-dev": {
     "phpunit/phpunit": "~3.7",
     "squizlabs/php_codesniffer": "1.4.*",
     "satooshi/php-coveralls": "~0.6",
-    "doctrine/common": "~2.4"
+    "doctrine/orm": "~2.4"
   },
   "autoload": {
     "psr-0": {
-      "ZfcOAuth2Server\\": "src/"
+      "ZfrOAuth2\\": "src/"
     }
   }
 }
